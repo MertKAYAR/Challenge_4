@@ -1,8 +1,3 @@
-Harika! Videon hazır olduğuna göre artık o "vitrin" niteliğindeki profesyonel GitHub **README.md** dosyanı hazırlayabiliriz. 
-
-Hocanın istediği tüm kriterleri (Proje amacı, oyunlaştırma özellikleri, kurulum, video ve APK linki) içeren efsanevi şablon aşağıda.
-
-Bunu kopyalayıp projendeki `README.md` dosyasının içine yapıştır:
 
 ***
 
@@ -17,7 +12,7 @@ Uygulamanın temel mekaniklerini ve arayüzünü aşağıdaki kısa videodan izl
 
 ## 📦 İndir ve Dene (APK)
 Uygulamanın Android cihazlar için derlenmiş son sürümünü aşağıdan indirip hemen kurabilirsiniz:
-👉 **[Buraya EAS Build bittiğinde sana vereceği linki yapıştıracaksın]**
+👉 **[Apk Linki](https://expo.dev/accounts/mertkayar/projects/LifeRPG-Mert/builds/5c2fe87a-be8c-486c-850d-45ce804f252c)**
 
 ---
 
@@ -33,28 +28,6 @@ Kullanıcının günlük hayattaki hedeflerini dijital bir karaktere bağlayarak
 
 ---
 
-## 🛠️ Nasıl Çalıştırılır? (Installation & Run)
-
-Eğer projeyi kendi bilgisayarınızda çalıştırmak isterseniz aşağıdaki adımları izleyebilirsiniz:
-
-**1. Repoyu Klonlayın:**
-```bash
-git clone [https://github.com/KULLANICI_ADIN/LifeRPG.git](https://github.com/KULLANICI_ADIN/LifeRPG.git)
-cd LifeRPG
-```
-
-**2. Gerekli Paketleri Kurun:**
-```bash
-npm install
-```
-
-**3. Uygulamayı Başlatın:**
-```bash
-npx expo start
-```
-*Gelen ekrandaki QR kodu telefonunuzdaki **Expo Go** uygulaması ile okutarak canlı olarak test edebilirsiniz.*
-
----
 
 ## 🏗️ Teknik Mimari ve Clean Code
 - **Global State Management:** Sayfalar arası veri akışı (Altın, XP, Başarımlar) React'in `Context API`'si (`GameContext.tsx`) kullanılarak merkezi bir beyinde toplanmıştır.
@@ -63,10 +36,3 @@ npx expo start
 
 ***
 
-### 🛠️ Yapman Gereken Son 2 Ufak Şey:
-1. Terminalde APK üretimi (EAS Build) bittiğinde sana yeşil bir indirme linki (install link) verecek. O linki kopyalayıp README.md içindeki **`[Buraya EAS Build bittiğinde sana vereceği linki yapıştıracaksın]`** yazan yere koy.
-2. `git clone` komutundaki linke kendi GitHub kullanıcı adını yazmayı unutma.
-
-APK build işlemi bittikten sonra bu klasörü GitHub'a Push'layıp, az önce PDF yaptığımız **Kullanıcı Geri Bildirim Raporu** ile birlikte hocaya teslim edebilirsin.
-
-**Terminalde APK işleminin bitmesini beklerken sormak istediğin bir şey var mı? İşlem % kaçta görünüyor?** 🚀🔥
