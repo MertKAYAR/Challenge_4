@@ -1,7 +1,3 @@
-
-***
-
-```markdown
 # 🌟 Life RPG - Dijital Karakter Geliştirme Oyunu
 
 Bu proje, Mobil Uygulama Geliştirme dersi kapsamında, sıradan bir "besle-büyüt" uygulamasının ötesine geçerek **gerçek bir oyunlaştırma (gamification)** deneyimi sunmak amacıyla geliştirilmiştir. AI asistanları mentörlüğünde "Senior Developer" yaklaşımıyla kodlanmış ve mimari olarak **Expo Router (Tab Navigation)** ile modern bir yapıya oturtulmuştur.
@@ -32,7 +28,3 @@ Kullanıcının günlük hayattaki hedeflerini dijital bir karaktere bağlayarak
 ## 🏗️ Teknik Mimari ve Clean Code
 - **Global State Management:** Sayfalar arası veri akışı (Altın, XP, Başarımlar) React'in `Context API`'si (`GameContext.tsx`) kullanılarak merkezi bir beyinde toplanmıştır.
 - **Modüler Yapı:** Her sayfa ve bileşen kendi sorumluluğunu alacak şekilde ayrılmış (Separation of Concerns), Expo Router ile modern alt navigasyon (Bottom Tabs) sistemi kurulmuştur.
-```
-
-***
-
